@@ -1,8 +1,8 @@
 import  Navbar  from './components/Navbar'
 import { Hero } from './pages/Hero'
 import './index.css'
-import {Benefits} from './pages/benefits'
-import {Features} from './pages/features'
+import {Benefits} from './pages/Benefits'
+import {Features} from './pages/Features'
 
 
 function App() {
