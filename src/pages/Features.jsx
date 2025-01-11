@@ -56,7 +56,7 @@ const Features = () => {
                     <div className='relative w-[700px] h-[450px]'>
                         <img src={features2} alt="" className='w-[700px] h-[444px] bottom-[-61px] left-4 absolute'/>
                         <img src={features21} alt="" className='w-[304px] h-[316px] left-[68px] top-[36px] absolute'/>
-                        <img src={features22} alt="" className='absolute w-8 right-40 top-12'/>
+                        <img src={features22} alt="" className='absolute w-8 right-[180px] top-[48px]'/>
                         <img src={features23} alt="" className='absolute w-[24px] left-[96px] top-[48px]'/>
                     </div>
                     <div className="my-36 mx-12 w-[392px]">
@@ -95,7 +95,7 @@ const Features = () => {
                         <img src={features31} alt="" className='absolute w-[516px] right-8 top-[228px] '/>
                         <img src={features32} alt="" className='absolute w-[460px] right-6 top-[160px]'/>
                         <img src={features33} alt="" className='absolute w-[480px] right-[-38px] top-[352px]'/>
-                        <img src={features34} alt="" className='absolute w-10 right-24 top-14  '/>
+                        <img src={features34} alt="" className='absolute w-8 top-[72px] right-[120px] '/>
                         <img src={features35} alt="" className='absolute w-6 left-4 bottom-14  '/>
                     </div>
                 </div>

@@ -23,7 +23,7 @@ const Benefits = () => {
     ];
 
     return (
-        <div className="h-auto w-full bg-[#FFFFFF] overflow-hidden my-48">
+        <div className="h-[800px] w-full bg-[#FFFFFF] overflow-hidden my-48">
             <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center">
                 <h3 className="p-8 text-5xl font-semibold">
                     Revolutionizing Healthcare Integration
@@ -37,7 +37,7 @@ const Benefits = () => {
                 <div className="flex justify-between items-start flex-wrap mx-12">
                     {benefits.map(({ img, title, desc }) => (
                         <div key={title} className="flex flex-col items-start justify-center bg-white shadow-lg rounded-lg m-6 p-4 w-[424px] border">
-                            <div className="flex justify-center items-center w-16 h-16 rounded-xl bg-[#F2F2F2] mb-10 mt-4">
+                            <div className="flex justify-center items-center w-16 h-16 rounded-xl bg-[#F2F2F2] mb-10">
                                 <img src={img} alt={title} className="size-8" />
                             </div>
                             <div className='mb-16'>
