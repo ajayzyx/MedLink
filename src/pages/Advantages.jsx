@@ -18,13 +18,13 @@ desc: "Highest standards of data protection with end-to-end encryption and compl
 {
 img: advantages3,
 title: "Smooth Integration",
-desc: "Seamlessly link with s HMS,  EHR, and LMS for an interconnected workflow and enhancing operational efficiency"
+desc: "Seamlessly link with s HMS, EHR, and LMS for an interconnected workflow and enhancing operational efficiency"
 },
 {
-  img: advantages4,
-  title: "Make Smart Decision",
-  desc: "Get real-time insights, reports and alerts to help you make more informed decisions."
-  }
+img: advantages4,
+title: "Make Smart Decision",
+desc: "Get real-time insights, reports and alerts to help you make more informed decisions."
+}
 ];
 return (
 <div className="w-full my-16">
@@ -57,8 +57,10 @@ return (
         </div>
     </div>
     <div className="bg-[#ffffff] w-full">
-      <div className='m-10 bg-[#fafafa] h-[720px] rounded-t-xl'>
-      </div>
+        <div className='m-10 bg-[#fafafa] h-[720px] rounded-t-xl'>
+            <div className=''>
+            </div>
+        </div>
     </div>
 </div>
 )

@@ -5,6 +5,8 @@ import Benefits from '../src/pages/Benefits'
 import Features from './pages/Features'
 import Advantages from '../src/pages/Advantages'
 import AboutUs from './pages/AboutUs'
+import Testimonials from './pages/Testimonials'
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Features />
         <Advantages/>
         <AboutUs/>
+        <Testimonials/>
       </div>
     </>   
   )
