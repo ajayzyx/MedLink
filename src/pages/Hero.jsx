@@ -1,3 +1,5 @@
+import HeroIMG from '../assets/images/HeroIMG.png'
+
 export const Hero = () => {
 return (
 <>
@@ -27,8 +29,8 @@ return (
         </div>
         <div className="relative mt-16 h-[800px] w-full ">
             <div className="absolute bottom-0 -translate-x-1/2 left-1/2">
-                <div className="inline-flex items-center justify-center w-[1420px] left-2 ">
-                    <img className="" src="/Group 1321314234.png" alt="Hero" />
+                <div className="inline-flex items-center justify-center w-[1420px] left-6 ">
+                    <img className="" src={HeroIMG} alt="Hero" />
                     <div className="absolute bottom-0 left-0 right-0 h-64 bg-gradient-to-t from-gray-50 to-transparent">
                     </div>
                 </div>
