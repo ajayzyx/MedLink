@@ -1,5 +1,5 @@
 import React from 'react'
-import Testimonials1 from '../assets/images/Testimonials1.png'
+import Testimonials1 from '../assets/images/Testimonials1.PNG'
 import Testimonials2 from '../assets/images/Testimonials2.png'
 import Testimonials3 from '../assets/images/Testimonials3.png'
 
