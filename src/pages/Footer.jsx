@@ -11,7 +11,7 @@ import Foot1 from '../assets/images/Foot1.svg'
 import Foot2 from '../assets/images/Foot2.svg'
 import Foot3 from '../assets/images/Foot3.svg'
 import Foot4 from '../assets/images/Foot4.svg'
-import Foot5 from '../assets/images/Foot5.svg'
+import Foot5 from '../assets/images/Foot5.svg' 
 
 function Footer() {
 return (
