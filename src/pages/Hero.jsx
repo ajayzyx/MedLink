@@ -20,7 +20,7 @@ return (
         </div>
         <div className ="flex items-center justify-center">
             <button
-                className ="bg-blue-500 shadow-lg shadow-blue-500/50 py-4 px-6  text-[#EEEEEE] Sofia Pro font-semibold rounded-lg">
+                className ="bg-[#0065FB] shadow-lg shadow-blue-500/50 py-4 px-6  text-[#EEEEEE] Sofia Pro font-semibold rounded-xl">
                 Request a Demo
             </button>
             <button className="py-4 px-6 rounded-lg text-[#000000] Sofia Pro font-semibold bg-white ml-4">

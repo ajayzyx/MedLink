@@ -7,6 +7,8 @@ import Advantages from '../src/pages/Advantages'
 import AboutUs from './pages/AboutUs'
 import Testimonials from './pages/Testimonials'
 import Comparison from './pages/Comparison'
+import Footer from './pages/Footer'
+import Questions from './pages/Questions'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <AboutUs/>
         <Testimonials/>
         <Comparison/>
+        <Questions/>
+        <Footer/>
       </div>
     </>   
   )
