@@ -8,7 +8,6 @@ import X from '../assets/images/X.png'
 import DigifrillsLogo from '../assets/images/DigifrillsLogo.png'
 import Footer1 from '../assets/images/Footer1.png'
 import Foot1 from '../assets/images/Foot1.svg'
-import Foot2 from '../assets/images/Foot2.svg'
 import Foot3 from '../assets/images/Foot3.svg'
 import Foot4 from '../assets/images/Foot4.svg'
 import Foot5 from '../assets/images/Foot5.svg' 
@@ -32,7 +31,7 @@ return (
             <div className='flex-row w-[700px] h-[420px] relative'>
                 <img src={Footer1} alt="" className='w-[700px] absolute bottom-4 right-8' />
                 <img src={Foot1} alt="" className='absolute w-16 left-4 top-16'/>
-                <img src={Foot2} alt="" className='absolute w-8 right-80 bottom-8'/>
+                {/* <img src={Foot2} alt="" className='absolute w-8 right-80 bottom-8'/> */}
                 <img src={Foot3} alt="" className='absolute w-8 top-14 left-48'/>
                 <img src={Foot4} alt="" className='absolute w-28 right-32 bottom-28'/>
                 <img src={Foot5} alt="" className='absolute w-8 right-12 top-40'/>
