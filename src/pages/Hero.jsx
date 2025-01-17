@@ -11,7 +11,7 @@ return (
                     One Window, One Step <br /> <span className="text-[#0065FB]">Total Health Solution</span>
                 </h3>
                 <div className='md:pt-12 pt-6'>
-                    <p className="max-w-[264px] md:max-w-[420px] text-center font-oakes font-normal text-sm tracking-tight text-[#737373]">
+                    <p className="max-w-[264px] md:max-w-[420px] text-center font-oakes font-normal text-sm text-[#737373]">
                         The website will act as a hub to connect the MedLinkPro app with hospital systems,
                         making it easier for patients, doctors, and hospitals to share and access healthcare
                         data.
