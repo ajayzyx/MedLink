@@ -13,7 +13,7 @@ import Questions from './pages/Questions'
 function App() {
   return (
     <>
-      <div className=''>
+      <div className='overflow-x-hidden'>
         <Navbar />
         <Hero />
         <Benefits />
