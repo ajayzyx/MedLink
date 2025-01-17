@@ -7,14 +7,14 @@ export default function AboutUs() {
     <div>
         <div className="h-[1300px] w-full bg-[#FFFFFF] overflow-hidden my-24">
             <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center">
-                <h3 className="p-8 text-5xl font-semibold">
+                <h3 className="p-8 text-5xl font-semibold font-oakes">
                     Healthcare for a Better Tomorrow
                 </h3>
-                <p className="w-[720px] text-[#737373] text-center">
+                <p className="w-[720px] text-[#737373] text-center font-oakes">
                 At MedLinkPro, We're revolutionizing healthcare with innovative digital solutions. Our goal is to simplify access, enhance care, and empower patients and providers.
                 </p>
             </div>
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center font-oakes'>
                 <div className=''>
                     <img src={AboutUs1} alt="" className='w-[647px] h-[489px] p-10' />
                 </div>
@@ -49,7 +49,7 @@ export default function AboutUs() {
                     </p>
                 </div>
             </div>
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center font-oakes'>
                 <div className='w-[649px] h-[479px]'>
                     <h3 className='p-8 text-4xl font-semibold text-center mt-4'>
                         Mission

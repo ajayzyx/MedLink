@@ -13,7 +13,7 @@ import Questions from './pages/Questions'
 function App() {
   return (
     <>
-      <div>
+      <div className=''>
         <Navbar />
         <Hero />
         <Benefits />
