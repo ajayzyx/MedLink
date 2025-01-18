@@ -6,7 +6,7 @@ import AboutUsImg from '../assets/images/AboutUsImg.png'
 export default function AboutUs() {
   return (
     <div>
-        <div className="h-[1300px] w-full bg-[#FFFFFF] overflow-hidden mt-24">
+        <div className="h-[1300px] w-full bg-[#FFFFFF] overflow-hidden mt-28">
             <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center">
                 <img src={AboutUsImg} alt="" />
                 <h3 className="p-8 text-5xl font-semibold font-oakes">
@@ -20,7 +20,7 @@ export default function AboutUs() {
                 <div className=''>
                     <img src={AboutUs1} alt="" className='w-[647px] h-[489px] p-10' />
                 </div>
-                <div className='w-[649px] h-[479px]'>
+                <div className='w-[649px] h-[479px] font-oakes'>
                     <h3 className='p-8 text-4xl font-semibold text-center mt-4'>
                         Vision
                     </h3>

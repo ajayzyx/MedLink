@@ -16,7 +16,7 @@ import Foot2 from '../assets/images/Foot2.svg'
 function Footer() {
 return (
 <>
-<div className="flex flex-col">
+<div className="flex flex-col font-oakes">
     <div className='bg-white w-full min-h-[540px] px-12 flex justify-between items-center flex-col'>
         <div className='max-w-[1392px]  max-h-[420px] bg-[#F2F2F2]  rounded-2xl flex'>
             <div className='max-w-[720px] flex-row p-16 gap-4'>

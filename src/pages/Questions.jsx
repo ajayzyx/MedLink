@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import { motion } from 'framer-motion';
+import QuestionsImg from '../assets/images/QuestionsImg.png'
 export const Questions = () => {
 const [activeQuestion, setActiveQuestion] = useState(null);
 
@@ -42,8 +43,9 @@ setActiveQuestion(activeQuestion === id ? null : id);
 
 
 return (
-<div className="m-20">
+<div className="m-20 font-oakes">
     <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center">
+        <img src={QuestionsImg} alt="" />
         <h3 className="p-8 text-5xl font-semibold">
             Smart Question Always Asked
         </h3>
@@ -52,9 +54,9 @@ return (
             can improve your healthcare experience.
         </p>
     </div>
-    <div className="flex flex-col items-center justify-center gap-y-8">
+    <div className="flex flex-col items-center justify-center gap-y-8 font-oakes">
         {questions.map(({id, question, answer}) => (
-        <div key={id} className="border flex-col inline-flex items-center justify-center px-6 py-2 rounded-lg shadow-sm cursor-pointer w-[1100px] min-h-[132px] bg-[#F7F7F7]"
+        <div key={id} className=" flex-col inline-flex items-center justify-center px-6 py-2 rounded-lg shadow-sm cursor-pointer w-[1100px] min-h-[132px] bg-[#F7F7F7]"
             onClick={()=> toggleAnswer(id)}
             >
             <div className="flex w-full justify-between items-center">

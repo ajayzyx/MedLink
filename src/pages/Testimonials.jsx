@@ -2,30 +2,32 @@ import React from 'react'
 import Testimonials1 from '../assets/images/Testimonials1.png'
 import Testimonials2 from '../assets/images/Testimonials2.png'
 import Testimonials3 from '../assets/images/Testimonials3.png'
+import TestimonialsImg from '../assets/images/TestimonialsImg.png'
 import { motion } from 'framer-motion'
 
 function Testimonials() {
 const testimonials = [{
     desc : "MedLinkPro ensures my time is spent where it matters the most—caring for patients, not juggling admin tasks. It's all at my fingertips.",
-    name : "Dr.Bhubnesh Maharana",
+    name : "Dr. Abhijeet Verma",
     designation : "DGHS"
 },
 {
     desc : "MedLinkPro ensures my time is spent where it matters the most—caring for patients, not juggling admin tasks. It's all at my fingertips.",
-    name : "Dr.Bhubnesh Maharana",
-    designation : "DGHS"
+    name : "Dr. Ajay Singh Raghuwanshi",
+    designation : "MBBS"
 },
 {
     desc : "MedLinkPro ensures my time is spent where it matters the most—caring for patients, not juggling admin tasks. It's all at my fingertips.",
-    name : "Dr.Bhubnesh Maharana",
-    designation : "DGHS"
+    name : "Dr. Vivek Jadhav",
+    designation : "MD"
 },
 ]
 
 return (
 <div>
-    <div className="flex flex-col w-full bg-[#FFFFFF] mt-24">
-        <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center">
+    <div className="flex flex-col w-full bg-[#ffffff] mt-24 h-[800px] ">
+        <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center font-oakes">
+            <img src={TestimonialsImg} alt="" />
             <h3 className="p-8 text-5xl font-semibold">
                 What Our Users Are Saying
             </h3>
@@ -35,7 +37,7 @@ return (
             </p>
         </div>
 
-        <div className="flex w-full gap-12   items-center justify-center">
+        <div className="flex w-full gap-12 items-center justify-center font-oakes h-[600px]">
         {                
             testimonials.map(({desc, name, designation}) => (
                 <motion.div
