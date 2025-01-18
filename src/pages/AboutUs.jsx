@@ -1,12 +1,14 @@
 import React from 'react'
 import AboutUs1 from '../assets/images/AboutUs1.png'
 import AboutUs2 from '../assets/images/AboutUs2.png'
+import AboutUsImg from '../assets/images/AboutUsImg.png'
 
 export default function AboutUs() {
   return (
     <div>
-        <div className="h-[1300px] w-full bg-[#FFFFFF] overflow-hidden my-24">
+        <div className="h-[1300px] w-full bg-[#FFFFFF] overflow-hidden mt-24">
             <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center">
+                <img src={AboutUsImg} alt="" />
                 <h3 className="p-8 text-5xl font-semibold font-oakes">
                     Healthcare for a Better Tomorrow
                 </h3>

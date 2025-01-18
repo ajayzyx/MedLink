@@ -31,7 +31,7 @@ return (
         <div className="relative h-[256px] sm:h-[400px] md: lg:h-[744px] w-full ">
             <div className="absolute bottom-0 lg:left-14">
                 <div className="inline-flex items-center justify-center">
-                    <img className="lg:w-[1296px] style={{ boxShadow: '0px 12px 48px 0px rgba(161, 161, 161, 0.25)' }} sm-[" src={HeroIMG} alt="Hero" />
+                    <img className="lg:w-[1296px] style={{ boxShadow: '0px 12px 48px 0px rgba(161, 161, 161, 0.25)' }}" src={HeroIMG} alt="Hero" />
                 </div>
             </div>
 

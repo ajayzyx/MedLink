@@ -12,15 +12,17 @@ import features32 from '../assets/images/features32.png'
 import features33 from '../assets/images/features33.png'
 import features34 from '../assets/images/features34.png'
 import features35 from '../assets/images/features35.png'
+import FeaturesImg from '../assets/images/Features.png'
 
 const Features = () => {
     return (
-        <div className="w-full bg-[#FFFFFF]">
+        <div className="w-full bg-[#FFFFFF] mt-36">
             <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center">
-                <h3 className="p-8 text-5xl font-semibold">
+                <img src={FeaturesImg} alt="" />
+                <h3 className="p-8 text-5xl font-semibold font-oakes">
                     Key Features That Bridge the Gaps
                 </h3>
-                <p className="w-[720px] text-[#737373] text-center">
+                <p className="w-[720px] text-[#737373] text-center font-oakes">
                     Explore powerful features that close the gaps in healthcare management. Seamlessly connect patients,
                     providers, and services for a unified experience.
                 </p>
@@ -29,16 +31,16 @@ const Features = () => {
                 {/* Feature 1 */}
                 <div style={{
                     boxShadow: '0px 12px 48px 0px rgba(217, 217, 217, 0.54)'
-                }} className="bg-[#FFF8EB] rounded-xl mx-36 h-[512px] flex ">
-                    <div className="my-36 mx-12 w-[392px]">
+                 }} className="bg-[#FFF8EB] rounded-xl mx-36 h-[512px] flex ">
+                    <div className="my-36 mx-12 w-[410px]">
                         <a
-                            className="bg-[#FFFFFF] rounded-md text-lg flex items-center justify-center size-10 font-semibold">
+                            className="bg-[#FFFFFF] rounded-md text-lg flex items-center justify-center size-10 font-semibold font-oakes">
                             01
                         </a>
-                        <h5 className="text-2xl font-semibold mt-6 mb-3 text-[#2D2D2D]">
+                        <h5 className="text-2xl font-semibold mt-6 mb-3 text-[#000000] font-oakes">
                             Unified Appointment Scheduling
                         </h5>
-                        <p className="text-base font-normal text-[#737373]">
+                        <p className="text-base font-normal text-[#737373] font-oakes">
                             Patients can book appointments effortlessly by filtering doctors based on expertise and
                             availability. Admins and staff manage schedules and send reminders, ensuring streamlined
                             consultations without conflicts.
@@ -57,17 +59,17 @@ const Features = () => {
                         <img src={features2} alt="" className='w-[700px] h-[444px] bottom-[-61px] left-4 absolute'/>
                         <img src={features21} alt="" className='w-[304px] h-[316px] left-[68px] top-[36px] absolute'/>
                         <img src={features22} alt="" className='absolute w-8 right-[180px] top-[48px]'/>
-                        <img src={features23} alt="" className='absolute w-[24px] left-[96px] top-[48px]'/>
+                        <img src={features23} alt="" className='absolute w-8 left-[92px] top-12'/>
                     </div>
-                    <div className="my-36 mx-12 w-[392px]">
+                    <div className="my-36 mx-12 w-[414px]">
                         <a
-                            className="bg-[#FFFFFF] rounded-md text-lg flex items-center justify-center size-10 font-semibold">
+                            className="bg-[#FFFFFF] rounded-md text-lg flex items-center justify-center size-10 font-semibold font-oakes">
                             02
                         </a>
-                        <h5 className="text-2xl font-semibold mt-6 mb-3 text-[#2D2D2D]">
+                        <h5 className="text-2xl font-semibold mt-6 mb-3 text-[#2D2D2D] font-oakes">
                             Smart Prescription Management
                         </h5>
-                        <p className="text-base font-normal text-[#737373]">
+                        <p className="text-base font-normal text-[#737373] font-oakes">
                             Patients can access prescriptions directly through the app, while staff monitor inventory and
                             orders. Admins oversee and ensure smooth prescription workflows for better treatment adherence.
                         </p>
@@ -76,16 +78,16 @@ const Features = () => {
 
                 {/* Feature 3 */}
                 <div className="bg-[#F0EEFC] rounded-xl mx-36 h-[512px] flex">
-                    <div className="my-36 mx-12 w-[392px]">
+                    <div className="my-36 mx-12 w-[412px]">
                         <a
-                            className="bg-[#FFFFFF] rounded-md text-lg flex items-center justify-center size-10 font-semibold">
+                            className="bg-[#FFFFFF] rounded-md text-lg flex items-center justify-center size-10 font-semibold font-oakes">
                             03
                         </a>
-                        <h5 className="text-2xl font-semibold mt-6 mb-3 text-[#2D2D2D]">
+                        <h5 className="text-2xl font-semibold mt-6 mb-3 text-[#2D2D2D] font-oakes">
                             Pharmacy and Lab Integration
                         </h5>
-                        <p className="text-base font-normal text-[#737373]">
-                            Patients can order medications from hospital pharmacies and schedule lab tests with real-time
+                        <p className="text-base font-normal text-[#737373] font-oakes">
+                            Patients can order medications from hospital pharmacies and schedule lab tests with real time
                             stock availability. Staff process orders and results, while admins maintain oversight for
                             operational efficiency.
                         </p>
@@ -95,8 +97,8 @@ const Features = () => {
                         <img src={features31} alt="" className='absolute w-[516px] right-8 top-[228px] '/>
                         <img src={features32} alt="" className='absolute w-[460px] right-6 top-[160px]'/>
                         <img src={features33} alt="" className='absolute w-[480px] right-[-38px] top-[352px]'/>
-                        <img src={features34} alt="" className='absolute w-8 top-[72px] right-[120px] '/>
-                        <img src={features35} alt="" className='absolute w-6 left-4 bottom-14  '/>
+                        <img src={features34} alt="" className='absolute w-8 top-[72px] right-[100px] '/>
+                        <img src={features35} alt="" className='absolute w-6 left-4 bottom-14'/>
                     </div>
                 </div>
             </div>
