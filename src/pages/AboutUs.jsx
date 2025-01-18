@@ -20,7 +20,7 @@ export default function AboutUs() {
                 <div className=''>
                     <img src={AboutUs1} alt="" className='w-[625px]' />
                 </div>
-                <div className='w-[649px] font-oakes'>
+                <div className='w-[626px] font-oakes'>
                     <h3 className='text-5xl font-semibold text-center'>
                         Vision
                     </h3>

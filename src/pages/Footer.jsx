@@ -72,7 +72,7 @@ return (
                 block no, street name, road name, Gujarat 90783
             </p>
             <p className="text-xl font-medium text-[#2B2B2B] mt-6">Contact:</p>
-            <p className="text-lg text-[#737373] font-normal mt-3"> 9389218327</p>
+            <p className="text-lg text-[#737373] font-normal mt-3">9389218327</p>
             <p className="text-lg text-[#737373] font-normal m-0">medlinkpro@gmail.com</p>
             <div className="flex justify-center md:justify-start space-x-4">
                 <a href="#" className="text-gray-600 hover:text-blue-600">

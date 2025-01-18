@@ -9,7 +9,7 @@ function Navbar() {
                 <div className='inline-flex  items-center size-12 justify-center'>
                     <img src={MedLinkLogo} alt ="Logo" className="size-12 " />
                 </div>
-                <span className="lg:text-2xl font-medium font-oakes text-[#2A2A2A]">Medlink</span>
+                <span className="lg:text-2xl lg:font-bold font-normal font-oakes text-[#2A2A2A]">Medlink</span>
             </div>
             <div className=" w-full md:flex md:max-w-[400px] lg:max-w-[500px] flex-nowrap  items-center justify-between hidden md:text-base lg:text-lg font-normal font-oakes text-[#434344]">
                 <div className='inline-flex items-center justify-center'>
