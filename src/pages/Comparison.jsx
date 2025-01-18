@@ -4,7 +4,7 @@ import ComparisonImg from '../assets/images/ComparisonImg.png'
 
 function Comparison() {
   return (
-    <div className='h-[1400px] w-full bg-[#FFFFFF] font-oakes mt-36'>
+    <div className=' w-full bg-[#FFFFFF] font-oakes mt-36'>
        <div className="">
             <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center">
                 <img src={ComparisonImg} alt="" />

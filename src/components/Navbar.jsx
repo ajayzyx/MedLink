@@ -16,10 +16,10 @@ function Navbar() {
                     <a href="">Home</a>
                     </div>
                 <div className='inline-flex items-center justify-center'>
-                    <a href="">Feature</a>
+                    <a href="">Features</a>
                     </div>
                 <div className='inline-flex items-center justify-center'>
-                    <a href="" className='text-nowrap' >About us</a>
+                    <a href="" className='text-nowrap' >About Us</a>
                     </div>
                 <div className='inline-flex items-center justify-center'>
                     <a href="">Services</a>

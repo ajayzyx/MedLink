@@ -16,7 +16,7 @@ import Foot2 from '../assets/images/Foot2.svg'
 function Footer() {
 return (
 <>
-<div className="flex flex-col font-oakes">
+<div className="flex flex-col font-oakes mt-48">
     <div className='bg-white w-full min-h-[540px] px-12 flex justify-between items-center flex-col'>
         <div className='max-w-[1392px]  max-h-[420px] bg-[#F2F2F2]  rounded-2xl flex'>
             <div className='max-w-[720px] flex-row p-16 gap-4'>
@@ -174,7 +174,7 @@ return (
              {/* Footer Bottom */}
              <div className="mt-10 border-t pt-2">
               <p className='mx-12 m-4 text-[#434344] text-base font-medium'>
-                &copy; 2024 MedLinkPro. All Rights Reserved.
+                &copy; 2025 MedLinkPro. All Rights Reserved.
               </p>
             </div>
 
