@@ -18,12 +18,12 @@ desc: "Empower healthcare providers to make faster, data-driven decisions that e
 {
 img: advantages2,
 title: "Security and Privacy",
-desc: "Highest standards of data protection with end-to-end encryption and compliance with healthcare regulation"
+desc: "Highest standards of data protection with end-to-end encryption and compliance with healthcare regulation."
 },
 {
 img: advantages3,
 title: "Smooth Integration",
-desc: "Seamlessly link with s HMS, EHR, and LMS for an interconnected workflow and enhancing operational efficiency"
+desc: "Seamlessly link with HMS, EHR, and LMS for an interconnected workflow and enhancing operational efficiency."
 },
 {
 img: advantages4,
@@ -38,7 +38,7 @@ return (
         <h3 className="p-8 text-5xl font-semibold ">
             Elevating Healthcare Standards
         </h3>
-        <p className="w-[720px] text-[#737373] text-center">
+        <p className="w-[720px] text-[#737373] text-center text-base">
             Enhancing the quality, security, and efficiency of healthcare through innovative solutions that streamline
             processes and improve outcomes.
         </p>
@@ -46,7 +46,7 @@ return (
     <div className='flex items-center justify-center'>
         <div className="inline-flex justify-center items-center my-6 mx-12 font-oakes gap-4">
             {advantages.map(({ img, title, desc }) => (
-            <div key={title} className="flex flex-col justify-center items-start w-[344px] p-7 border-[2px] rounded-xl group hover:border-blue-600 hover:bg-blue-50">
+            <div key={title} className="flex flex-col justify-center items-start w-[344px] p-6 border-[2px] rounded-xl group hover:border-blue-600 hover:bg-blue-50 hover:border-[3px]">
                 <div className="flex justify-center items-center w-16 h-16 rounded-lg bg-[#F2F2F2] group-hover:bg-white group-hover:bg-opacity-100 bg-opacity-50 mb-8">
                     <img src={img} alt={title} className="" />
                 </div>
@@ -74,7 +74,9 @@ return (
         <div className="flex w-[1000px] justify-center z-20 items-center absolute bottom-0 left-1/2 -translate-x-1/2" >
             <video
             autoPlay
-            className="rounded-t-xl"  style={{BoxShadow: "0px -12px 48px 0px rgba(217, 217, 217, 0.54);"}}>
+            muted
+            loop
+            className="rounded-t-xl"  style={{boxShadow: "0px -12px 48px 0px rgba(217, 217, 217, 0.54);"}}>
             <source src="SampleVideo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
             </video>
