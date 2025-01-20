@@ -16,8 +16,8 @@ export default function AboutUs() {
                 At MedLinkPro, We're revolutionizing healthcare with innovative digital solutions. Our goal is to simplify access, enhance care, and empower patients and providers.
                 </p>
             </div>
-            <div className='flex justify-center'>
-            <div className='flex sm:flex-row flex-col sm:justify-between font-oakes sm:mx-16 sm:mt-32 gap-6'>
+            <div className='flex justify-center '>
+            <div className='flex sm:flex-row flex-col sm:justify-between font-oakes mt-10 sm:mx-16 sm:mt-32 gap-10'>
                 <div className=''>
                     <img src={AboutUs1} alt="" className='w-[280px] sm:w-[625px]' />
                 </div>
@@ -78,7 +78,7 @@ export default function AboutUs() {
                     </p>
                 </div>
                 <div>
-                    <img src={AboutUs2} alt="" className='sm:w-[578px] w-[240px]' />
+                    <img src={AboutUs2} alt="" className='sm:w-[578px] w-[240px] mt-8 sm:mt-0' />
                 </div>
             </div>
             </div>

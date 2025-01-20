@@ -27,11 +27,11 @@ return (
 <div>
     <div className="flex flex-col w-full bg-[#ffffff] mt-24 h-[800px] ">
         <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center font-oakes">
-            <img src={TestimonialsImg} alt="" />
-            <h3 className="p-8 text-5xl font-semibold">
+            <img src={TestimonialsImg} alt="Testimonials" className="w-20 sm:size-fit"/>
+            <h3 className="p-3 sm:p-8 text-2xl text-center md:text-3xl lg:text-5xl font-semibold text-[#2A2A2A]">
                 What Our Users Are Saying
             </h3>
-            <p className="w-[600px] text-[#737373] text-center">
+            <p className="md:w-[720px] w-[315px] sm:w-96 text-[#737373] font-light text-center text-sm sm:text-sm md:text-base lg:text-base">
                 Discover how MedLinkPro is making a difference in the lives of our users through their experiences and
                 feedback.
             </p>
