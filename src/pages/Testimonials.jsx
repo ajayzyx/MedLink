@@ -25,7 +25,7 @@ const testimonials = [{
 
 return (
 <div>
-    <div className="flex flex-col w-full bg-[#ffffff] mt-24 h-[800px] ">
+    <div className="flex flex-col w-full bg-[#ffffff] mt-24 ">
         <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center font-oakes">
             <img src={TestimonialsImg} alt="Testimonials" className="w-20 sm:size-fit"/>
             <h3 className="p-3 sm:p-8 text-2xl text-center md:text-3xl lg:text-5xl font-semibold text-[#2A2A2A]">
@@ -37,7 +37,7 @@ return (
             </p>
         </div>
 
-        <div className="flex w-full gap-12 items-center justify-center font-oakes h-[600px]">
+        <div className="flex flex-col sm:flex-row w-full gap-12 items-center justify-center font-oakes my-4 sm:my-24">
         {                
             testimonials.map(({desc, name, designation}) => (
                 <motion.div
@@ -48,9 +48,11 @@ return (
                     scale:1.05,
                     duration: 0.4}}
                 whileHover={{boxShadow: "0px 10px 38px 0px rgba(217, 217, 217, 0.32)"}}
-                    className='w-[435px] group inline-flex  rounded-lg  justify-between  p-6  '>
+                
+                    className='w-[330px] sm:w-[435px] group inline-flex  rounded-lg  justify-between  p-6  '>
                         <div>
-                            <motion.div className=" w-full h-0  group-hover:h-52 duration-300 transform-gpu ease-in-out rounded-2xl overflow-hidden">
+                            <motion.div className=" w-full h-0 group-active:h-40 group-hover:h-40  sm:group-hover:h-52 duration-300 transform-gpu ease-in-out rounded-2xl overflow-hidden"
+                            >
                                 
                                 <img src="https://imgs.search.brave.com/vb3RKw85h1PlNSxAArl6ImeTdv5rWolfYIc3xsJxIMw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTgy/MzQ0MzU5L3Bob3Rv/L2hvc3BpdGFsLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz11/UmMxU0tVZHNYZ3B6/LUg0TmRUdGx2TE9v/NV9kZnRYYWxtNGpf/Q21Jc3NJPQ" alt="" />
                             </motion.div>
@@ -68,14 +70,14 @@ return (
                                         fill="#0065FB" className='flex-grow' />
                                 </svg>        
                             </div>
-                            <p className="text-[#434344] font-normal text-xl mt-4">
+                            <p className="text-[#434344] font-normal sm:text-xl text-base mt-4">
                                 {desc}
                             </p>        
                             <div className="mt-6 inline-flex flex-col">
-                                <h4 className="text-2xl font-semibold">{name}</h4>
-                                <p className="text-lg text-[#2A2A2A] font-normal mt-2">{designation}</p>
-                                <div className='inline-flex items-center justify-start mt-2'>
-                                    <img src={Testimonials2} alt="" className="w-[188px] " />
+                                <h4 className="sm:text-2xl text-lg font-semibold">{name}</h4>
+                                <p className="sm:text-lg text-base text-[#2A2A2A] font-normal sm:mt-2">{designation}</p>
+                                <div className='inline-flex items-center justify-start sm:mt-2'>
+                                    <img src={Testimonials2} alt="" className="w-[120px] sm:w-[188px] " />
                                 </div>
                             </div>
                         </div>

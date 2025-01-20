@@ -25,7 +25,7 @@ const Benefits = () => {
   ];
 
   return (
-    <div className="w-full bg-[#FFFFFF] overflow-hidden lg:mt-36 mt-20 md-20">
+    <div className="w-full bg-[#FFFFFF] overflow-hidden lg:mt-36 mt-20">
       <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center font-oakes">
         <img src={BenefitsImg} alt="Benefits" className="w-20 sm:size-fit" />
         <h3 className="p-3 sm:p-8 text-2xl text-center md:text-3xl lg:text-5xl font-semibold text-[#2A2A2A]">

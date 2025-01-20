@@ -49,7 +49,7 @@ return (
       {advantages.map(({ img, title, desc }) => (
         <div
           key={title}
-          className="flex flex-col justify-center items-start sm:w-[344px] w-[260px] sm:p-6 p-3 border-[2px] rounded-xl group hover:border-blue-600 hover:bg-blue-50 hover:border-[3px]"
+          className="flex flex-col justify-center items-start sm:w-[344px] w-[280px] sm:p-6 p-3 border-[2px] rounded-xl group hover:border-blue-600 hover:bg-blue-50 hover:border-[3px]"
         >
           <div className="flex justify-center items-center size-8 sm:size-16 rounded-lg bg-[#F2F2F2] group-hover:bg-white group-hover:bg-opacity-100 bg-opacity-50 sm:mb-8 mb-4">
             <img src={img} alt={title} className="w-6 sm:size-fit"/>
