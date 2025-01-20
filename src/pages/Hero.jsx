@@ -4,10 +4,10 @@ import HeroPhone from '../assets/images/HeroPhone.png'
 export const Hero = () => {
 return (
 <div className='w-full overflow-hidden'>
-    <div className="pt-6 md:mt-28 lg:mt-32 md:mx-10 mx-4 mt-24 bg-[#EEEEEE] rounded-2xl ">
+    <div className="pt-6 md:mt-28 lg:mt-32 md:mx-10 mx-4 mt-[102px] bg-[#EEEEEE] rounded-2xl ">
         <div className="flex items-center justify-center w-full bg-[#EEEEEE]">
             <div className="inline-flex flex-col items-center justify-center sm:px-12 sm:pt-12 sm:pb-8 px-4 pt-6 pb-8 bg-[#EEEEEE]">
-                <h3 className=" font-bold text-center font-oakes md:text-5xl lg:text-7xl text-3xl gap-y-1">
+                <h3 className=" font-bold text-center font-oakes sm:text-4xl md:text-5xl lg:text-7xl text-[28px] gap-y-1">
                     One Window, One Step <br /> <span className="text-[#0065FB]">Total Health Solution</span>
                 </h3>
                 <div className='md:pt-12 pt-10'>

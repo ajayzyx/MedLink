@@ -3,7 +3,7 @@ import MedLinkLogo from "../assets/images/medlinklogo.png"
 
 function Navbar() {
   return (
-    <nav className ="bg-[#FFFFFF]  fixed top-0 right-0 z-40 w-full  px-6 py-4 shadow-lg lg:px-16" style={{boxshadow: '0px 6px 24px 0px rgba(217, 217, 217, 0.54)'}} >
+    <nav className ="bg-[#FFFFFF]  fixed top-0 right-0 z-40 w-full shadow-lg px-6 py-4 lg:px-16" style={{boxshadow: '0px 6px 24px 0px rgba(217, 217, 217, 0.54)'}} >
         <div className="flex gap-2  items-center w-full justify-between lg:h-16">
             <div className="inline-flex sm:gap-4 gap-2 justify-center items-center">
                 <div className='inline-flex  items-center size-12 justify-center'>

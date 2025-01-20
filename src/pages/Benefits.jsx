@@ -25,9 +25,9 @@ const Benefits = () => {
   ];
 
   return (
-    <div className="w-full bg-[#FFFFFF] overflow-hidden lg:mt-36 sm:mt-20 mt-12">
+    <div className="w-full bg-[#FFFFFF] overflow-hidden lg:mt-36 mt-20 md-20">
       <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center font-oakes">
-        <img src={BenefitsImg} alt="Benefits" className="w-20" />
+        <img src={BenefitsImg} alt="Benefits" className="w-20 sm:size-fit" />
         <h3 className="p-3 sm:p-8 text-2xl text-center md:text-3xl lg:text-5xl font-semibold text-[#2A2A2A]">
           Revolutionizing Healthcare Integration
         </h3>
@@ -41,7 +41,7 @@ const Benefits = () => {
           {benefits.map(({ img, title, desc }) => (
             <motion.div
               key={title}
-              className="flex flex-col items-start justify-center bg-white rounded-lg m-4 sm:m-0 lg:m-4  p-4 w-[320px] sm:w-[296px] lg:w-[320px] border-[2px] border-[#E6E6E6] sm:hover:border-hidden"
+              className="flex flex-col items-start justify-center bg-white rounded-lg m-4 sm:m-0 lg:m-4  p-4 w-[320px] sm:w-[296px] lg:w-[448px] sm:border-[2px] border-[1px] border-[#E6E6E6] hover:border-hidden active:border-hidden"
               initial={{ opacity: 0, scale: 0.9, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               whileHover={{
