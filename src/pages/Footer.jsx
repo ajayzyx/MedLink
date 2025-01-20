@@ -16,20 +16,20 @@ import Foot2 from '../assets/images/Foot2.svg'
 function Footer() {
 return (
 <>
-<div className="flex flex-col font-oakes mt-48">
-    <div className='bg-white w-full min-h-[540px] px-12 flex justify-between items-center flex-col'>
-        <div className='max-w-[1392px]  max-h-[420px] bg-[#F2F2F2]  rounded-2xl flex'>
-            <div className='max-w-[720px] flex-row p-16 gap-4'>
-                <h4 className='text-5xl text-[#2A2A2A] font-bold'>
+<div className="flex flex-col font-oakes sm:mt-36 mt-24">
+    <div className='bg-white w-full sm:min-h-[540px] sm:px-12 px-4 flex sm:justify-between items-center flex-col'>
+        <div className='sm:max-w-[1392px] w-full max-h-[420px] justify-center bg-[#F2F2F2]  rounded-2xl flex'>
+            <div className='sm:w-[700px] w-[320px] flex-row sm:p-16 sm:gap-4 order-last sm:order-none py-6 sm:py-14'>
+                <h4 className='sm:text-5xl text-2xl text-[#2A2A2A] font-bold'>
                     Transform Your Health Journey with <span
-                        className='text-5xl text-[#0065FB] font-bold'>MedLinkPro</span>
+                        className='sm:text-5xl text-2xl text-[#0065FB] font-bold'>MedLinkPro</span>
                 </h4>
-                <p className='text-[#737373] text-lg font-normal my-8'>Manage your health smarter with
+                <p className='text-[#737373] sm:text-lg font-normal my-8'>Manage your health smarter with
                     MedLinkPro—prescriptions, records, services, and recommendations, all in one place. Transforming
                     healthcare for a better future.</p>
                 <button className='text-white rounded-xl bg-[#0065FB] w-full text-lg p-2'>Get Started Now</button>
             </div>
-            <div className='flex-row w-[700px] h-[420px] relative'>
+            <div className='flex-row w-[700px] h-[420px] relative hidden sm:block'>
                 <img src={Footer1} alt="" className='w-[700px] absolute bottom-4 right-8' />
                 <img src={Foot1} alt="" className='absolute w-16 left-4 top-16'/>
                 <img src={Foot2} alt="" className='absolute w-8 right-80 bottom-8'/>

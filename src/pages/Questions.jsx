@@ -46,7 +46,7 @@ return (
 <div className="mx-20 mt-36 font-oakes">
     <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center">
         <img src={QuestionsImg} alt="Questions" className="w-20 sm:size-fit"/>
-        <h3 className="p-3 sm:p-8 text-2xl text-center md:text-3xl lg:text-5xl font-semibold text-[#2A2A2A]">
+        <h3 className="p-3 sm:p-8 text-2xl text-center md:text-3xl lg:text-5xl font-semibold text-[#2A2A2A] min-w-[300px]">
             Smart Question Always Asked
         </h3>
         <p className="md:w-[720px] w-[315px] sm:w-96 text-[#737373] font-light text-center text-sm sm:text-sm md:text-base lg:text-base">
