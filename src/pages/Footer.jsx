@@ -39,41 +39,41 @@ return (
             </div>
         </div>
     </div>
-    <div className='flex flex-col'>
-        <div className="mb-8 md:mb-0 flex pb-6  w-full items-center justify-between px-12 ">
+    <div className='flex flex-col mt-8'>
+        <div className="sm:mb-8 md:mb-0 flex pb-6 w-full items-center justify-between px-2 sm:px-12 ">
             <div>
-                <h2 className="text-lg font-semibold">Join our newsletter</h2>
-                <p className="text-gray-600 mt-1">
+                <h2 className="sm:text-lg text-base font-semibold">Join our newsletter</h2>
+                <p className="text-gray-600 mt-1 hidden sm:block">
                     Get updates from us weekly about project management.
                 </p>
             </div>
-            <div className="mt-4 flex">
+            <div className="mt-1 sm:mt-4 flex gap-1 sm:gap-8">
                 <input type="email" placeholder="Enter your email"
-                    className="py-2 px-6 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none" />
-                <div className="ml-8 rounded-xl">
-                    <button className="bg-blue-600 rounded-xl text-white py-3 px-6  hover:bg-blue-700">
+                    className="w-[104px] sm:w-auto sm:py-2 py-1 sm:px-6 px-2f border rounded-md sm:rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none text-xs sm:text-lg " />
+                <div className="rounded-xl">
+                    <button className="bg-blue-600 rounded-md sm:rounded-xl text-white sm:py-3 sm:px-6 py-1 px-2 sm:text-lg text-xs hover:bg-blue-700">
                         Subscribe
                     </button>
                 </div>
             </div>
         </div>
-        <div className='border-t border-gray-200 pt-8 flex justify-between items-start mx-10'></div>
-        <div className='flex px-12'>
+        <div className='border-t border-gray-200 pt-8 flex justify-between items-start mx-2 sm:mx-10'></div>
+        <div className='flex mx-2 sm:mx-12'>
         <div className=' flex flex-row basis-4/6'>
           <div className="text-left flex-col flex">
-            <div className="flex items-center flex-row">
-                <img src={MedLinkLogo} alt="" className="size-9" />
-                <h3 className="font-semibold text-2xl ml-3">Medlink</h3>
+            <div className="flex items-center flex-row gap-1 sm:gap-3">
+                <img src={MedLinkLogo} alt="" className="size-7 sm:size-9" />
+                <h3 className="font-semibold text-xl">Medlink</h3>
             </div>
-            <p className="text-xl font-medium text-[#2B2B2B] mt-6">
+            <p className="text-lg sm:text-xl font-medium text-[#2B2B2B] mt-6">
                 Address:
             </p>
-            <p className="text-lg text-[#737373] font-normal">
+            <p className="text-sm sm:text-base text-[#737373] font-normal">
                 block no, street name, road name, Gujarat 90783
             </p>
-            <p className="text-xl font-medium text-[#2B2B2B] mt-6">Contact:</p>
-            <p className="text-lg text-[#737373] font-normal mt-3">9389218327</p>
-            <p className="text-lg text-[#737373] font-normal m-0">medlinkpro@gmail.com</p>
+            <p className="text-lg sm:text-xl font-medium text-[#2B2B2B] mt-6">Contact:</p>
+            <p className="text-sm sm:text-base text-[#737373] font-normal">9389218327</p>
+            <p className="text-sm sm:text-base text-[#737373] font-normal">medlinkpro@gmail.com</p>
             <div className="flex justify-center md:justify-start space-x-4">
                 <a href="#" className="text-gray-600 hover:text-blue-600">
                     <i className="fab fa-facebook-f"></i>
@@ -92,53 +92,48 @@ return (
         </div>
         <div className='flex flex-row justify-center items-center'>
           <div className=''>
-          <div className="flex gap-48 mt-5 text-left">
+          <div className="flex sm:gap-60 gap-4 text-left mt-10 sm:mt-0">
               <div className="text-center">
-                <h3 className="font-semibold text-lg">Sitemap</h3>
-                <ul className="mt-2 space-y-2">
+                <h3 className="font-medium sm:font-semibold text-base sm:text-lg">Sitemap</h3>
+                <ul className="mt-4 sm:space-y-4 space-y-2  text-[#737373] text-sm sm:text-base hover:underline">
                   <li>
-                    <a href="#" className="text-gray-600 hover:underline">
+                    <a href="#" className="">
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:underline">
+                    <a href="#" className="">
                       Features
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:underline">
+                    <a href="#" className="">
                       Project
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:underline">
+                    <a href="#" className="">
                       Pricing
                     </a>
                   </li>
                 </ul>
               </div>
               <div className="text-center">
-                <h3 className="font-semibold text-lg">Company</h3>
-                <ul className="mt-2 space-y-2">
+                <h3 className="font-medium sm:font-semibold text-base sm:text-lg">Company</h3>
+                <ul className="mt-4 sm:space-y-9 space-y-2 text-sm sm:text-base text-[#737373] hover:underline">
                   <li>
-                    <a href="#" className="text-gray-600 hover:underline">
+                    <a href="#" className="">
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:underline">
+                    <a href="#" className="">
                       Careers
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:underline">
+                    <a href="#" className="text-wrap ">
                       Contact Us
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-600 hover:underline">
-                      Blog
                     </a>
                   </li>
                 </ul>
@@ -148,32 +143,32 @@ return (
             </div>
         </div>
         </div>
-        <div className="flex justify-between items-center px-12">
-                <div className="flex gap-6">
+        <div className="flex justify-between items-center mx-2 sm:mx-12 py-4">
+                <div className="flex sm:gap-5 gap-2">
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                        <img src={fb1} alt="" className="h-6" />
+                        <img src={fb1} alt="" className="w-5" />
                     </a>
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                        <img src={Insta1} alt="" className="h-6" />
+                        <img src={Insta1} alt="" className="w-5" />
                     </a>
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                        <img src={X} alt="" className="h-6" />
+                        <img src={X} alt="" className="w-5" />
                     </a>
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                        <img src={Whatsapp} alt="" className="h-6" />
+                        <img src={Whatsapp} alt="" className="w-5" />
                     </a>
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                        <img src={Mail} alt="" className="h-6" />
+                        <img src={Mail} alt="" className="w-5" />
                     </a>
                 </div>
 
                 <div>
-                    <img src={DigifrillsLogo} alt="" className="h-14" />
+                    <img src={DigifrillsLogo} alt="" className="w-48 sm:w-auto" />
                 </div>
             </div>
              {/* Footer Bottom */}
-             <div className="mt-10 border-t pt-2">
-              <p className='mx-12 m-4 text-[#434344] text-base font-medium'>
+             <div className="sm:mt-10 border-t pt-2">
+              <p className='mx-2 sm:mx-12 m-4 text-[#434344] text-xs sm:text-base font-medium '>
                 &copy; 2025 MedLinkPro. All Rights Reserved.
               </p>
             </div>
