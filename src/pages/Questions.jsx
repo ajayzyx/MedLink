@@ -56,7 +56,7 @@ return (
     </div>
     <div className="flex flex-col items-center justify-center gap-y-8 font-oakes">
         {questions.map(({id, question, answer}) => (
-        <div key={id} className=" flex-col inline-flex items-center justify-center px-6 py-2 rounded-lg shadow-sm cursor-pointer sm:w-[1100px] sm:min-h-[132px] min-h-24 w-[400px] bg-[#F7F7F7]"
+        <div key={id} className=" flex-col inline-flex items-center justify-center px-6 pb-4 pt-8 rounded-lg shadow-sm cursor-pointer sm:w-[1100px] sm:min-h-[132px] min-h-24 w-[400px] bg-[#F7F7F7]"
             onClick={()=> toggleAnswer(id)}
             >
             <div className="flex w-full justify-between items-center">

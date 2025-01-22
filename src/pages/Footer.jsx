@@ -18,7 +18,7 @@ return (
 <>
 <div className="flex flex-col font-oakes sm:mt-36 mt-24">
     <div className='bg-white w-full sm:min-h-[540px] sm:px-12 px-4 flex sm:justify-between items-center flex-col'>
-        <div className='sm:max-w-[1392px] w-full max-h-[420px] justify-center bg-[#F2F2F2]  rounded-2xl flex'>
+        <div className='sm:max-w-[1392px] w-full max-h-[420px] justify-center bg-[#F2F2F2] rounded-2xl flex'>
             <div className='sm:w-[700px] w-[320px] flex-row sm:p-16 sm:gap-4 order-last sm:order-none py-6 sm:py-14'>
                 <h4 className='sm:text-5xl text-2xl text-[#2A2A2A] font-bold'>
                     Transform Your Health Journey with <span
@@ -40,7 +40,7 @@ return (
         </div>
     </div>
     <div className='flex flex-col mt-8'>
-        <div className="sm:mb-8 md:mb-0 flex pb-6 w-full items-center justify-between px-2 sm:px-12 ">
+        <div className="sm:mb-8 md:mb-0 flex pb-6 w-full items-center justify-between px-4 sm:px-12 ">
             <div>
                 <h2 className="sm:text-lg text-base font-semibold">Join our newsletter</h2>
                 <p className="text-gray-600 mt-1 hidden sm:block">
@@ -58,7 +58,7 @@ return (
             </div>
         </div>
         <div className='border-t border-gray-200 pt-8 flex justify-between items-start mx-2 sm:mx-10'></div>
-        <div className='flex mx-2 sm:mx-12'>
+        <div className='flex mx-4 sm:mx-12'>
         <div className=' flex flex-row basis-4/6'>
           <div className="text-left flex-col flex">
             <div className="flex items-center flex-row gap-1 sm:gap-3">
@@ -95,24 +95,24 @@ return (
           <div className="flex sm:gap-60 gap-4 text-left mt-10 sm:mt-0">
               <div className="text-center">
                 <h3 className="font-medium sm:font-semibold text-base sm:text-lg">Sitemap</h3>
-                <ul className="mt-4 sm:space-y-4 space-y-2  text-[#737373] text-sm sm:text-base hover:underline">
+                <ul className="mt-4 sm:space-y-4 space-y-2  text-[#737373] text-sm sm:text-base">
                   <li>
-                    <a href="#" className="">
+                    <a href="#" className="hover:underline">
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="">
+                    <a href="#" className="hover:underline">
                       Features
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="">
+                    <a href="#" className="hover:underline">
                       Project
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="">
+                    <a href="#" className="hover:underline">
                       Pricing
                     </a>
                   </li>
@@ -120,19 +120,19 @@ return (
               </div>
               <div className="text-center">
                 <h3 className="font-medium sm:font-semibold text-base sm:text-lg">Company</h3>
-                <ul className="mt-4 sm:space-y-9 space-y-2 text-sm sm:text-base text-[#737373] hover:underline">
+                <ul className="mt-4 sm:space-y-9 space-y-2 text-sm sm:text-base text-[#737373]">
                   <li>
-                    <a href="#" className="">
+                    <a href="#" className="hover:underline">
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="">
+                    <a href="#" className="hover:underline">
                       Careers
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-wrap ">
+                    <a href="#" className="text-wrap hover:underline">
                       Contact Us
                     </a>
                   </li>
@@ -143,7 +143,7 @@ return (
             </div>
         </div>
         </div>
-        <div className="flex justify-between items-center mx-2 sm:mx-12 py-4">
+        <div className="flex justify-between items-center mx-4 sm:mx-12 py-4">
                 <div className="flex sm:gap-5 gap-2">
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                         <img src={fb1} alt="" className="w-5" />
@@ -168,7 +168,7 @@ return (
             </div>
              {/* Footer Bottom */}
              <div className="sm:mt-10 border-t pt-2">
-              <p className='mx-2 sm:mx-12 m-4 text-[#434344] text-xs sm:text-base font-medium '>
+              <p className='mx-4 sm:mx-12 m-2 sm:m-4 text-[#434344] text-xs sm:text-base font-medium '>
                 &copy; 2025 MedLinkPro. All Rights Reserved.
               </p>
             </div>

@@ -48,11 +48,9 @@ return (
                     scale:1.05,
                     duration: 0.4}}
                 whileHover={{boxShadow: "0px 10px 38px 0px rgba(217, 217, 217, 0.32)"}}
-                
                     className='w-[330px] sm:w-[435px] group inline-flex  rounded-lg  justify-between  p-6  '>
                         <div>
-                            <motion.div className=" w-full h-0 group-active:h-40 group-hover:h-40  sm:group-hover:h-52 duration-300 transform-gpu ease-in-out rounded-2xl overflow-hidden"
-                            >
+                            <motion.div className=" w-full h-0 group-active:h-40 group-hover:h-40  sm:group-hover:h-52 duration-300 transform-gpu ease-in-out rounded-2xl overflow-hidden">
                                 
                                 <img src="https://imgs.search.brave.com/vb3RKw85h1PlNSxAArl6ImeTdv5rWolfYIc3xsJxIMw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTgy/MzQ0MzU5L3Bob3Rv/L2hvc3BpdGFsLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz11/UmMxU0tVZHNYZ3B6/LUg0TmRUdGx2TE9v/NV9kZnRYYWxtNGpf/Q21Jc3NJPQ" alt="" />
                             </motion.div>

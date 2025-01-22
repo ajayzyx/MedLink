@@ -2,6 +2,7 @@ import React from 'react'
 import Comparison1 from '../assets/images/Comparison1.png'
 import ComparisonImg from '../assets/images/ComparisonImg.png'
 import ComparisonMobileDesign from '../assets/images/ComparisonMobileDesign.png'
+import ComparisonMobileWEBP from '../assets/images/ComparisonMobileDesign.webp'
 
 function Comparison() {
   return (
@@ -18,7 +19,10 @@ function Comparison() {
             </div>
             <div className='flex justify-center mt-20'>
               <img src={Comparison1} alt="" className='w-[1440px] hidden sm:block' />
-              <img src={ComparisonMobileDesign} alt="" className='w-[1440px] sm:hidden block' />
+              <picture>
+                <source srcset={ComparisonMobileWEBP} type="webp"/>
+                <img src={ComparisonMobileDesign} alt="" className='w-[1440px] sm:hidden block' />
+              </picture>
             </div>
         </div>   
     </div>
