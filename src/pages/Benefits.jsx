@@ -10,17 +10,17 @@ const Benefits = () => {
     {
       img: Benefits1,
       title: "Smarter Healthcare Solutions",
-      desc: "Simplify hospital workflows with HMS integrated features like appointment scheduling, error-free prescriptions, and real-time patient data management.",
+      desc: "A unified platform designed to simplify patient care and management, from scheduling appointments to accessing prescriptions with ease.",
     },
     {
       img: Benefits2,
       title: "Transforming Healthcare",
-      desc: "Simplify hospital workflows with HMS integrated features like appointment scheduling, error-free prescriptions, and real-time patient data management.",
+      desc: "A revolutionary ecosystem that integrates healthcare services for better outcomes and seamless experiences for patients and providers.",
     },
     {
       img: Benefits3,
       title: "Streamlined Health Management",
-      desc: "Simplify hospital workflows with HMS integrated features like appointment scheduling, error-free prescriptions, and real-time patient data management.",
+      desc: "Effortlessly manage appointments, access medical records, and connect with healthcare professionals anytime, anywhere.",
     },
   ];
 
