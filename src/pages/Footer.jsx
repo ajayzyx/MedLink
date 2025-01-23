@@ -63,7 +63,7 @@ return (
           <div className="text-left flex-col flex">
             <div className="flex items-center flex-row gap-1 sm:gap-3">
                 <img src={MedLinkLogo} alt="" className="size-7 sm:size-9" />
-                <h3 className="font-semibold text-xl">Medlink</h3>
+                <h3 className="font-semibold text-xl">MedlinkPro</h3>
             </div>
             <p className="text-lg sm:text-xl font-medium text-[#2B2B2B] mt-6">
                 Address:
