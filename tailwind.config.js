@@ -3,6 +3,7 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      scrollBehavior: ["smooth"],
       fontFamily: {
         'oakes': ['Oakes Grotesk', 'sans-serif'],
         'sofia': ['Sofia Pro', 'sans-serif'],

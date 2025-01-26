@@ -16,7 +16,7 @@ import FeaturesImg from '../assets/images/Features.png'
 
 const Features = () => {
     return (
-        <div className="w-full bg-[#FFFFFF] lg:mt-36 mt-20 ">
+        <div id='Features' className="w-full bg-[#FFFFFF] lg:mt-36 mt-20 pt-20">
             <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center font-oakes">
                 <img src={FeaturesImg} alt="Features" className="w-20 sm:size-fit"/>
                 <h3 className="p-3 sm:p-8 text-2xl text-center md:text-3xl lg:text-5xl font-semibold text-[#2A2A2A]">
@@ -31,7 +31,7 @@ const Features = () => {
                 {/* Feature 1 */}
                 <div 
                 style={{boxShadow: '0px 12px 48px 0px rgba(217, 217, 217, 0.54)'
-                 }} className="bg-[#FFF8EB] rounded-xl mx-auto inline-flex ">
+                 }} className="bg-[#FFF8EB] rounded-xl mx-36 inline-flex ">
                     <div className="sm:my-36 sm:mx-12 lg:w-[410px] mx-4 my-6 w-[312px]">
                         <a
                             className="bg-[#FFFFFF] rounded-md text-lg flex items-center justify-center sm:size-10 size-8 font-semibold font-oakes">
@@ -59,7 +59,7 @@ const Features = () => {
                 <div 
                 style={{boxShadow: '0px 12px 48px 0px rgba(217, 217, 217, 0.54)'
                  }} 
-                 className="bg-[#F8FBEE] rounded-xl mx-auto inline-flex">
+                 className="bg-[#F8FBEE] rounded-xl mx-36 inline-flex">
                     <div className='hidden sm:block'>
                     <div className='relative w-[644px] h-[450px]'>
                         <img src={features2} alt="" className='w-[700px] -bottom-[42px] left-4 absolute'/>
@@ -86,7 +86,7 @@ const Features = () => {
                 <div 
                 style={{boxShadow: '0px 12px 48px 0px rgba(217, 217, 217, 0.54)'
                 }}
-                className="bg-[#F0EEFC] rounded-xl mx-auto inline-flex">
+                className="bg-[#F0EEFC] rounded-xl mx-36 inline-flex">
                     <div className="sm:my-36 sm:mx-12 sm:max-w-[412px] mx-4 my-6 max-w-[312px] flex flex-col">
                         <a className="bg-[#FFFFFF] rounded-md text-lg flex items-center justify-center sm:size-10 size-8 font-semibold font-oakes">
                             03

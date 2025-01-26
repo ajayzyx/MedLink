@@ -43,7 +43,7 @@ setActiveQuestion(activeQuestion === id ? null : id);
 
 
 return (
-<div className="mx-20 mt-36 font-oakes">
+<div id='Questions' className="mx-20 mt-36 font-oakes pt-20">
     <div className="bg-[#FFFFFF] m-8 flex flex-col items-center justify-center">
         <img src={QuestionsImg} alt="Questions" className="w-20 sm:size-fit"/>
         <h3 className="p-3 sm:p-8 text-2xl text-center md:text-3xl lg:text-5xl font-semibold text-[#2A2A2A] min-w-[300px]">

@@ -15,8 +15,8 @@ import Foot2 from '../assets/images/Foot2.svg'
 
 function Footer() {
 return (
-<>
-<div className="flex flex-col font-oakes sm:mt-36 mt-24">
+<div id="Footer">
+<div className="flex flex-col font-oakes sm:mt-36 mt-24 pt-36">
     <div className='bg-white w-full sm:min-h-[540px] sm:px-12 px-4 flex sm:justify-between items-center flex-col'>
         <div className='sm:max-w-[1392px] w-full max-h-[420px] justify-center bg-[#F2F2F2] rounded-2xl flex'>
             <div className='sm:w-[700px] w-[320px] flex-row sm:p-16 sm:gap-4 order-last sm:order-none py-6 sm:py-14'>
@@ -27,7 +27,12 @@ return (
                 <p className='text-[#737373] sm:text-lg font-normal my-8'>Manage your health smarter with
                     MedLinkPro—prescriptions, records, services, and recommendations, all in one place. Transforming
                     healthcare for a better future.</p>
-                <button className='text-white rounded-xl bg-[#0065FB] w-full text-lg p-2'>Get Started Now</button>
+                <a
+                  href="https://forms.gle/F84A1zAYQvsTy47m9"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                <button className='text-white rounded-xl bg-[#0065FB] w-full text-lg p-2'>Learn More</button>
+                </a>
             </div>
             <div className='flex-row w-[700px] h-[420px] relative hidden sm:block'>
                 <img src={Footer1} alt="" className='w-[700px] absolute bottom-4 right-8' />
@@ -69,10 +74,10 @@ return (
                 Address:
             </p>
             <p className="text-sm sm:text-base text-[#737373] font-normal">
-                block no, street name, road name, Gujarat 90783
+                Vadodara, Gujarat
             </p>
             <p className="text-lg sm:text-xl font-medium text-[#2B2B2B] mt-6">Contact:</p>
-            <p className="text-sm sm:text-base text-[#737373] font-normal">9389218327</p>
+            <p className="text-sm sm:text-base text-[#737373] font-normal">8780682690</p>
             <p className="text-sm sm:text-base text-[#737373] font-normal">medlinkpro@gmail.com</p>
             <div className="flex justify-center md:justify-start space-x-4">
                 <a href="#" className="text-gray-600 hover:text-blue-600">
@@ -174,7 +179,7 @@ return (
             </div>
 
     </div>
-</>
+</div>
 
 )
 }
